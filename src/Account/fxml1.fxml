@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="586.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Account.FXMLController">
+   <children>
+      <TextArea fx:id="txst" editable="false" layoutX="270.0" layoutY="38.0" prefHeight="381.0" prefWidth="286.0" />
+      <TextField fx:id="AccNo" layoutX="41.0" layoutY="103.0" prefHeight="25.0" prefWidth="173.0" promptText="Account No" />
+      <TextField fx:id="AccName" layoutX="43.0" layoutY="170.0" prefHeight="25.0" prefWidth="167.0" promptText="AccountName" />
+      <TextField fx:id="AccBalance" layoutX="43.0" layoutY="235.0" prefHeight="25.0" prefWidth="167.0" promptText="AccountBalance" />
+      <Button layoutX="66.0" layoutY="301.0" mnemonicParsing="false" onAction="#Add" prefHeight="32.0" prefWidth="121.0" text="ADD" />
+      <Button layoutX="67.0" layoutY="350.0" mnemonicParsing="false" onAction="#Show" prefHeight="32.0" prefWidth="121.0" text="Show" />
+      <Label layoutX="40.0" layoutY="30.0" prefHeight="32.0" prefWidth="173.0" text="Accounts :" />
+   </children>
+</Pane>
